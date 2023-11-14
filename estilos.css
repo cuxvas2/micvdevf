@@ -6,7 +6,28 @@
 :root {
     --background-color: #fff;
     --text-color: #000;
-} 
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittle {
+    text-shadow: 7px 5px 9px grey;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.subtitulo {
+    padding-bottom: 1rem;
+}
+
+.personal-description {
+    padding-bottom: 3rem;
+}
+.profile-description {
+    padding-bottom: 2rem;
+}
 
 .image-profile {
     max-width: 40%;
@@ -14,6 +35,11 @@
     clip-path: circle(50%);
     display: block;
     margin: 0 auto;
+    
+}
+
+.contenedor-skils {
+    margin-top: 3rem;
 }
 
 @media (max-width: 1250px) {
