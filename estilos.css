@@ -31,17 +31,20 @@ body{
 
 .image-profile {
     max-width: 40%;
+    height: 20rem;
     width: cover;
     clip-path: circle(50%);
     display: block;
     margin: 0 auto;
-    
 }
 
 .contenedor-skils {
     margin-top: 3rem;
 }
 
+ul {
+    list-style-type: disc;
+}
 @media (max-width: 1250px) {
     .image-profile {
         max-width: 60%;
